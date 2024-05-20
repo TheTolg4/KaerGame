@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sosyal {
+    float: right;
+}
+
+.altsol img {
+    margin-left: 0.5rem;
+}
+
+.altsol {
+    display: inline-block;
+}
+
+.godresim img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.icerik2 .iletisimyazi p {
+    color: white !important;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-size: 1.4rem;
+}
+
+.iletisimyazi a {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 3rem !important;
+    font-weight: bold !important;
+    padding: 2rem 0rem;
+}
+
+.icerik2 .iletisimyazi {
+    padding: 10rem 0rem;
+}
+
+.godresim {
+    padding-bottom: 2rem;
+}
+
+.godresim2 img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.godresim2 {
+    padding-bottom: 2rem;
+}
+
+.video-container {
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    border: 3px solid black;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.god {
+    width: 80% !important;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.godyazi {
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+    background: #3c31dd;
+}
+
+.carousel-inner {
+    overflow: initial !important;
+}
+
+.carousel-caption {
+    top: 50%;
+}
+
+.carousel-caption h5 {
+    font-size: 3rem;
+    text-shadow: 1px 2px 0px #B3001B;
+}
+
+.carousel-caption a {
+    color: white;
+    text-shadow: 1px 2px 0px #B3001B;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.carousel-caption a:hover {
+    color: #B3001B;
+    text-shadow: 1px 2px 0px #EFEFEF;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+input.btn.btn-danger.butonn {
+    padding: 1rem 8rem;
+    margin: 2rem 0rem;
+}
+
+.row.formbosluk {
+    margin: 3rem 0rem !important;
+}
+
+.formbosluk2 {
+    margin: 1rem 0rem !important;
+}
+
+.iletisimresim {
+    background: url(../images/finger2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.iletisimresim img {
+    max-width: 100%;
+}
+
+nav {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+
+nav #logo img {
+    float: left;
+    max-width: 200px;
+    margin-top: 13px;
+    margin-left: 3rem;
+}
+
+nav ul {
+    float: right;
+    margin-right: 3rem;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+.icerik2 {
+    background: white !important;
+}
+
+.icerik2 p,
+.icerik2 h3 {
+    color: black !important;
+}
+
+.icerik2 h3 {
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem 0rem;
+    background: linear-gradient( to right, black, black), linear-gradient( to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: 400ms;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icerik2 h3:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EFEFEF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 18px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 0px #B3001B;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #B3001B;
+    text-shadow: 1px 2px 0px #EFEFEF;
+}
+
+nav #burgerbuton {
+    display: none;
+}
+
+nav .burgerbuton {
+    font-size: 2rem;
+    float: right;
+    color: #EFEFEF;
+    line-height: 80px;
+    margin-right: 2rem;
+    display: none;
+}
+
+@media(max-width: 580px) {
+    .sosyal {
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .yazi h3 {
+        padding-top: 1.5rem;
+    }
+    .godresim img {
+        margin-top: 2rem;
+    }
+    .godresim2 img {
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 850px) {
+    nav ul {
+        position: fixed;
+        background-color: #b3001b;
+        width: 100%;
+        height: calc(100vh - 80px);
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all .5s;
+        left: -100% !important;
+        z-index: 12;
+    }
+    nav ul li {
+        display: block;
+        min-width: 80%;
+        text-align: center;
+        line-height: 4rem;
+    }
+    nav ul li a {
+        display: block;
+        font-size: 1.2rem;
+        background: black;
+        margin: 15px 0px;
+        padding: 0px;
+        box-shadow: 2px 2px 2px 0px #EFEFEF;
+    }
+    nav .burgerbuton {
+        display: initial;
+        text-shadow: 1px 2px 0px #B3001B;
+        transition: 0.3s ease-in-out;
+    }
+    nav .burgerbuton:hover {
+        color: #B3001B;
+        text-shadow: 1px 2px 0px #EFEFEF;
+    }
+    nav #burgerbuton:checked~ul {
+        left: 0 !important;
+    }
+    nav #burgerbuton:checked~label.burgerbuton i::before {
+        content: "\f00d";
+    }
+}
+
+@media(min-width: 850px) {
+    .card.mb-3.col-md-6.col-sm-12.kart {
+        max-width: 47%;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+    }
+    .ilkrow {
+        margin-left: 1rem;
+        position: relative;
+        left: 1%;
+    }
+}
+
+@media(max-width: 770px) {
+    footer .p-4 {
+        padding: 3rem !important;
+    }
+}
+
+.ilkrow {
+    --bs-gutter-x: 0rem !important;
+}
+
+.godresim img:hover {
+    filter: brightness(0.5);
+}
+
+.icerik {
+    background-color: black;
+}
+
+.icerik h3 {
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem 0rem;
+    background: linear-gradient( to right, white, white), linear-gradient( to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: 400ms;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icerik h3:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+a.btn.btn-danger {
+    float: right;
+}
+
+h5.card-title {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    color: #B3001B;
+}
+
+button.btn.btn-danger {
+    float: right;
+    width: 25%;
+}
+
+.icerik a img {
+    transition: 0.5s;
+}
+
+.icerik a img:hover {
+    filter: brightness(0.5);
+}
+
+.kratos img {
+    transition: 0.5s;
+}
+
+.kratos img:hover {
+    filter: brightness(0.5);
+}
+
+.icerik h5 {
+    font-weight: bold;
+    border-radius: 20px;
+    background: linear-gradient( to right, black, black), linear-gradient( to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 3px, 0 3px;
+    display: inline-block;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.icerik h5:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+.kratos img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.godofwar {
+    background: url(../images/1.2.jpg);
+}
+
+.container-fluid.godofwar {
+    padding: 4rem;
+}
+
+.yazi {
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.yazi h1 {
+    color: white;
+    text-align: left;
+    padding: 1rem 0rem;
+}
+
+.yazi p {
+    text-align: left;
+    color: white;
+}
+
+.cizgi {
+    border-radius: 20px;
+    background: linear-gradient( to right, white, white), linear-gradient( to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 3px, 0 3px;
+    display: inline-block;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: 400ms;
+    cursor: pointer;
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.cizgi:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+.yazar p {
+    text-align: right;
+}
